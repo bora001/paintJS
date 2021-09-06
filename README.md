@@ -1,2 +1,2 @@
 # paintJS
-javascript with canvasJS
+javascript with canvas
