@@ -1,0 +1,80 @@
+body{
+    background-color: rgba(181, 224, 64, 0.123);
+}
+.painting_project{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#paint_area{
+    margin-top: 50px;
+    width: 500px;
+    height: 500px;
+    background-color: #fff;
+    box-shadow: 1px 1px 10px rgb(168, 163, 163);
+}
+
+.buttons{
+}
+
+.colors{
+    display: flex;
+}
+
+.colors .color, .colors input{
+    width: 50px;
+    height: 50px;
+    border-radius: 25px;
+    cursor: pointer;
+    margin-right: 5px;
+}
+.colors input{
+    opacity: 0;
+}
+
+.colors .color.brush_color{
+    background: url(https://cdn-icons-png.flaticon.com/512/3953/3953405.png);
+    background-size: contain;
+}
+.colors .color.bg_color{
+    background: url(https://cdn-icons-png.flaticon.com/512/922/922675.png);
+    background-size: contain;
+}
+
+.buttons{
+    display: flex;
+    align-items:center;
+    justify-content: space-around;
+    height: 60px;
+    width: 170px;
+}
+
+.buttons .reset, .buttons .do_save{
+box-shadow: 1px 1px 5px rgb(168, 163, 163);
+width: 70px;
+height: 30px;
+line-height: 30px;
+text-align: center;
+display: block;
+text-decoration: none;
+color: #000;
+margin-bottom: 10px;
+cursor: pointer;
+}
+
+.buttons .reset:hover, .buttons .do_save:hover{
+background-color: #000;
+color: #fff;
+transition: 0.3s;
+}
+
+.ranges{
+    display: flex;
+}
+
+.ranges p{
+    width: 50px;
+    text-align: center;
+}
+
+
