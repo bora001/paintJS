@@ -78,3 +78,8 @@ transition: 0.3s;
 }
 
 
+.from, .from a{
+    margin-top: 50px;
+    text-decoration: none;
+    color: #000;
+}
